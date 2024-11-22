@@ -13,7 +13,6 @@ import kotlin.math.sin
 import kotlin.math.sqrt
 import kotlin.math.tan
 
-@Suppress("IMPLICIT_CAST_TO_ANY")
 class MainActivity : AppCompatActivity() {
     val SUMA = "+"
     val RESTA = "-"
@@ -41,7 +40,6 @@ class MainActivity : AppCompatActivity() {
         formatoDecimal = DecimalFormat("#.##########")
         tvTemp= findViewById(R.id.tvTemp)
         tvResult= findViewById(R.id.tvResult)
-
 
     }
     fun cambiarOperador(b:View){
@@ -140,7 +138,6 @@ class MainActivity : AppCompatActivity() {
         //    tvTemp.text= " "
         //}
         tvTemp.text = tvTemp.text.toString() + boton.text.toString()
-
     }
 
     fun igual (b: View){

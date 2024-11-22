@@ -110,7 +110,7 @@
             android:layout_margin="3dp"
 
             android:backgroundTint="#5488CC"
-            android:onClick="cambiarOperador"
+            android:onClick="porcentaje"
             android:text="%"
             android:textSize="24sp"
             app:cornerRadius="20dp" />
