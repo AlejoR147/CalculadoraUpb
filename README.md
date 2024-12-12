@@ -9,3 +9,5 @@
 <br>
 
 ![image](https://github.com/user-attachments/assets/4133c139-4f05-405a-96a4-992e04102630)
+<br>
+Es un proyecto basico pero interesante para empezar con este mundo de la programación movil.
